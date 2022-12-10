@@ -12,7 +12,7 @@
 5. 和微信通信，主要是模拟点击事件，而不是通过网页版微信（现在很多网页版微信都是无法登录的）。
 
 ## 功能展示
-B站视频链接：[https://www.bilibili.com/video/BV1i8411G7xC](https://www.bilibili.com/video/BV1i8411G7xC)
+**B站视频链接：[https://www.bilibili.com/video/BV1i8411G7xC](https://www.bilibili.com/video/BV1i8411G7xC)**
 1. 微信群聊里面，有人艾特机器人（这里的机器人名称叫小埋)。
 2. 文本结构是：`@机器人名称 + 问题`。
 3. 机器人会处理此文本，并且返回答案。
@@ -140,7 +140,7 @@ pip install revChatGPT --upgrade
 上面基本上就ok了。最后直接运行`app.py`文件就行了。
 
 1. 默认是简单回复模板。
-2. 如果想要使用chatgpt模板，前提，你可以正常使用chatgpt。
+2. 如果想要使用chatgpt模板，前提，你可以正常使用chatgpt,请最好先阅读[https://github.com/acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) 包，整体上用这个包来处理chatgpt通信问题。
 ![](https://files.mdnice.com/user/7098/28f06163-a9cb-4be9-9416-9ab24544f0e9.png)
 
 
