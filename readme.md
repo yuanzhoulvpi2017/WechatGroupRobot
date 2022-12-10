@@ -12,11 +12,10 @@
 5. 和微信通信，主要是模拟点击事件，而不是通过网页版微信（现在很多网页版微信都是无法登录的）。
 
 ## 功能展示
-![【chatgpt集成到微信群聊里面】](https://www.bilibili.com/video/BV1i8411G7xC/?share_source=copy_web&vd_source=5b5f47aad15364bf1b94d286348ab60c)
-
+B站视频链接：https://www.bilibili.com/video/BV1i8411G7xC
 1. 微信群聊里面，有人艾特机器人（这里的机器人名称叫小埋)。
 2. 文本结构是：`@机器人名称 + 问题`
-2. 机器人会处理此文本，并且返回答案。
+3. 机器人会处理此文本，并且返回答案。
 
 ![](https://files.mdnice.com/user/7098/2afb7c41-16c7-4b6f-83cd-3e559ac3a124.png)
 
