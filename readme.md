@@ -85,3 +85,62 @@ B站视频链接：[https://www.bilibili.com/video/BV1i8411G7xC](https://www.bil
 
 
 
+
+
+# 如何使用
+## 机器人名称
+
+注意我这里叫【小埋】，你的可以改为你自己的，这个不是难点。
+
+## 截图
+
+使用这部分是最麻烦的，因为每个人的电脑分辨率不同，导致截图都是没办法复用的，因此你只能在你的电脑上，把下面截图都给再截图一遍。
+
+![](https://files.mdnice.com/user/7098/8b56680d-ac88-42b2-adb9-1adf3ffb6841.png)
+
+### 1. image_01_mention.png
+
+这个是被提到的图片，你需要截图，内容上，最好和我截图一样。
+
+### 2. image_02_usertextv2.png
+
+这个截图很有技巧。因为在点击【被提到后】，需要等待那个消息框周围变深，然后才能截图。
+
+因此建议，使用pyautogui辅助截图。
+
+就是要把这个绿框截图给准确的截下来（当然你的机器人名称不叫小埋）
+![](https://files.mdnice.com/user/7098/2b8e4f96-9847-43f5-804c-d54a1bcb8236.png)
+
+截图成功最终的样子就是`images/image_02_usertextv2.png`。
+
+注意这里是V2版本的奥，后面有V2！！！
+
+### 3. image_03_copy.png
+
+这个不难，就是鼠标放在被艾特的文本上的时候，右键，出现【复制】,然后这个时候截图。
+
+### 4. image_04_input.png
+
+这个也是不难，就是直接截图
+
+### 5. image_05_send.png
+
+这个就是右下角的【发送】按钮
+
+## 安装依赖
+
+```bash
+pip install pyautogui
+pip install pyperclip
+
+# https://github.com/acheong08/ChatGPT
+pip install revChatGPT --upgrade 
+```
+## 程序
+上面基本上就ok了。最后直接运行`app.py`文件就行了。
+
+1. 默认是简单回复模板。
+2. 如果想要使用chatgpt模板，前提，你可以正常使用chatgpt。
+![](https://files.mdnice.com/user/7098/28f06163-a9cb-4be9-9416-9ab24544f0e9.png)
+
+

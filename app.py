@@ -9,6 +9,9 @@ import pyautogui as pag
 def main():
     pt = ProcessText()  # 处理文本
 
+    # 如果想要使用chatgpt
+    # pt = ProcessTextChatGpt()
+
     # 定位到被提到的位置
     ml = CardLocation(config=CardConfig(template_file="images/image_01_mention.png", bias_type=BiasType.NoBias))
     # 定位到被艾特的位置
